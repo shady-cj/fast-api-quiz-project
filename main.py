@@ -8,7 +8,7 @@ app = FastAPI()
 
 origins = [
 
-    "*"
+    "https://drag-drop-quiz.netlify.app/"
 ]
 #  uvicorn wordsapi:app --port 3000
 app.add_middleware(
